@@ -1,0 +1,92 @@
+body { 
+    margin: 0; 
+    font-family: monospace; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url(star.png); 
+    color: #392a47; 
+    font-size: 20px; 
+} 
+
+h1 {
+    color: rgb(244, 233, 250);
+    justify-content: center;
+    text-align: center;
+    overflow:auto;
+    width: auto;
+    background-color: #aa87c2;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 50px;
+    display: inline-block;
+    text-shadow: 2px 2px 1px #334292;
+    box-shadow: 0 5px 10px 2px #334292;
+}
+
+#strength-password {
+    text-shadow:
+    3px 3px 0 #fff9ef,
+    -3px 3px 0 #fff9ef,
+    -3px -3px 0 #fff9ef,
+    3px -3px 0 #fff9ef;
+}
+
+#title-password {
+    color: rgb(244, 233, 250);
+    justify-content: center;
+    text-align: center;
+    overflow:auto;
+    width: auto;
+    background-color: #ebb43e;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    text-shadow: 2px 2px 1px #334292;
+    box-shadow: 0 5px 10px 2px #334292;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#password {
+    background-color: rgb(244, 233, 250);
+    box-shadow: 0 5px 10px 2px #334292;
+}
+
+.group { 
+    width: auto; 
+    text-align: center; 
+} 
+  
+.group label { 
+    display: block; 
+    padding: 20px 0; 
+} 
+  
+.group input { 
+    border: none; 
+    outline: none; 
+    padding: 20px; 
+    width: calc(100% - 40px); 
+    border-radius: 10px; 
+    background-color: #eaeff2; 
+    color: #3ba62f; 
+    font-size: 20px; 
+} 
+  
+.group .power-container { 
+    background-color: #f7d9a3; 
+    width: 100%; 
+    height: 15px; 
+    border-radius: 5px; 
+} 
+  
+.group .power-container #power-point { 
+    background-color: #D73F40; 
+    width: 1%; 
+    height: 100%; 
+    border-radius: 5px; 
+    transition: 0.5s; 
+}
